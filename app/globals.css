@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    body{
+        color: White;
+        background-color: black;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+    }
+}
+
+@layer components{
+    .menulink {
+         @apply cursor-pointer hover:text-[#c5c5c5]
+    }
+    .tags{
+        background-color:chartreuse;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 3px 10px;
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .tags:last-child{
+        margin-right: 0;
+    }
+
+    .tags:nth-child(2) {
+        background-color: blueviolet;
+    }
+
+    .tags:nth-child(3) {
+        background-color:brown;
+    }
+
+    .tags:nth-child(4) {
+        background-color:darkmagenta;
+    }
+}
