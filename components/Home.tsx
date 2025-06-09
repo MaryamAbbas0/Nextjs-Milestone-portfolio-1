@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
 
             <a
-              href="https://milestone-1-2-kappa.vercel.app"
+              href="https://cv-rose-zeta.vercel.app/"
               target="_blank"
               download="Maryam_Abbas_CV.pdf"
               className="inline-block mt-6 px-6 py-3 bg-[#00cfff] text-white text-[16px] font-medium rounded-lg hover:bg-[#00cfff] transition duration-300"

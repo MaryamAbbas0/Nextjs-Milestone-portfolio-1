@@ -1,5 +1,5 @@
 "use client";
-import Hero from "../components/Hero";
+import Hero from "../components/Home";
 import Project from "../components/Project";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
